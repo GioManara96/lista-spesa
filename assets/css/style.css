@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 245, 248);
+    font-family: "Open Sans", sans-serif;
+}
+
+.container-lg {
+    min-height: 100vh;
+    max-width: 1200px;
+}
+
+.central-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 560px;
+    width: 95vw;
+    margin-top: 8rem;
+}
+
+.alert {
+    text-align: center;
+    padding: 0.3rem;
+    border: none;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+.central-section h3 {
+    color: #063251;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.grocery-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grocery-form input, .grocery-form button {
+    border: none;
+    padding: 0.2rem 1rem;
+}
+
+.grocery-form input {
+    border-radius: 8px 0 0 8px;
+    background-color: rgb(241, 245, 248);
+    width: 100%;
+    color: rgba(0,0,0,0.5)
+}
+
+.grocery-form button {
+    border-radius: 0 8px 8px 0;
+    background-color: #a5d5f8;
+}
+
+.grocery-container {
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+.clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: block;
+    background: transparent;
+    border-color: transparent;
+    color: #e66b6b;
+    margin: 0 auto;
+    font-size: 0.85rem;
+    letter-spacing: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.clear-btn:hover, .delete-btn:hover {
+    color: #bb2525;
+}
+
+.grocery-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0.2rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s linear;
+}
+
+.grocery-item:hover {
+    background-color: rgb(241, 245, 248);
+}
+
+.title {
+    margin: 0;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+}
+
+.edit-btn {
+    color: #6be675;
+}
+
+.edit-btn:hover {
+    color: #25bb32;
+}
+
+.delete-btn {
+    color: #e66b6b;
+}
